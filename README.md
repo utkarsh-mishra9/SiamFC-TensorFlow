@@ -76,6 +76,8 @@ python experiments/SiamFC-3s-color-pretrained.py
 
 # 5. Run tracking on the test sequence with the converted model
 python scripts/run_tracking.py
+(To run the model on a specific file sequence, change the location of input_files, to the folder which contains the images))
+(To run on triplet loss trained model, choose 'SiamFC-3s-color-scratch')
 
 # 6. Show tracking results
 # You can press Enter to toggle between play and pause, and drag the 
